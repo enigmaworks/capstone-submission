@@ -45,7 +45,7 @@ export default function App() {
 	}
 
 	// *** Calculation Functions *** //
-	/*wrapValueToRange takes two parementers
+	/* wrapValueToRange takes two parementers
 			range, an array containing two integer values, the minumum and maximum value of a range
 			value, an integer
 		the function returns an integer, representing the "wrapped" value of the input to fit within that range,
