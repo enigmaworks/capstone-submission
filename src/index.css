@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono:wght@300;500&display=swap");
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+body,
+html {
+	margin: 0;
+	font-family: "Inter";
+	background-color: #ebefef;
+	color: #373d3f;
+}
+h1 {
+	text-align: center;
+}
+main {
+	padding: 1rem;
+}
+button {
+	padding: 0.5rem;
+	margin: 0.5rem;
+	cursor: pointer;
+}

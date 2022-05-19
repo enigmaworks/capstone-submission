@@ -1,0 +1,23 @@
+.main {
+	display: grid;
+	gap: 1rem;
+	max-width: 70rem;
+	margin: 0 auto;
+}
+.inputcontainer {
+	display: grid;
+	width: max-content;
+}
+.splotchgrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+}
+.buttonscontainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+@media screen and (min-width: 60rem) {
+	.buttonscontainer {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
